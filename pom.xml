@@ -6,12 +6,21 @@
 
     <groupId>app.fintrack</groupId>
     <artifactId>fintrack-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>fintrack-core</module>
+        <module>fintrack-infra</module>
+        <module>fintrack-cli</module>
+    </modules>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Компилируем на JDK 21, но таргетим Java 17 -->
+        <maven.compiler.release>17</maven.compiler.release>
+        <!-- Общие версии (по желанию, удобно для детей) -->
+        <junit.version>5.10.2</junit.version>
+        <jackson.version>2.17.2</jackson.version>
     </properties>
-    
 </project>
