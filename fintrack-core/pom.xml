@@ -6,10 +6,28 @@
     <parent>
         <groupId>app.fintrack</groupId>
         <artifactId>fintrack-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
+    <artifactId>fintrack-infra</artifactId>
 
-    <artifactId>fintrack-core</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>app.fintrack</groupId>
+            <artifactId>fintrack-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
