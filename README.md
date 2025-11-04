@@ -1,4 +1,4 @@
-FinTrack — Personal Finance (CLI, Java, Maven, Multi-Module)
+FinTrack — Personal Finance
 
 Мульти-модульное CLI-приложение для учёта личных финансов.
 
