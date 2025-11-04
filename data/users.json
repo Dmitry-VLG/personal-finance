@@ -1,7 +1,0 @@
-[ {
-  "login" : "dima",
-  "passwordHash" : "pbkdf2:65536:65VM7KyAn6FqclBs0B988w==:5KoCDQz2PTp1Drbmf24We7d+DV9WPVjBANvT2o1Buw0="
-}, {
-  "login" : "ivan",
-  "passwordHash" : "pbkdf2:65536:NPKNsc6wTXHMU5xUMVlo6Q==:fKSb1wLh8pfJ47UTlh+8CI40HqWZPnAJnNqDla5qohc="
-} ]
